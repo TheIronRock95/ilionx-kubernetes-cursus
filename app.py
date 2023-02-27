@@ -23,7 +23,6 @@ COLOR_FROM_ENV = os.environ.get('APP_COLOR')
 # Generate a random color
 COLOR = random.choice(["red", "green", "blue", "blue2", "darkblue", "pink"])
 
-
 @app.route("/")
 def main():
     return render_template('index.html', name=socket.gethostname(), color=color_codes[COLOR])
@@ -40,7 +39,7 @@ if __name__ == "__main__":
           "\n"
           "")
 
-    # Check for Command Line Parameters for color
+    # Check for commandline parameters for color
     parser = argparse.ArgumentParser()
     parser.add_argument('--color', required=False)
     args = parser.parse_args()
