@@ -8,7 +8,7 @@ import argparse
 app = Flask(__name__)
 
 color_codes = {
-    "red": "#e74c3c",
+    "red": "#e8003d",
     "green": "#16a085",
     "blue": "#2980b9",
     "blue2": "#30336b",
