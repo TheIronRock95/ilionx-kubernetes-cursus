@@ -1,6 +1,6 @@
 # ilionx-docker-example
 
-Maak een Dockerfile die de volgende image maakt:
+Maak een Dockerfile die de volgende image creert:
 - Gebruik als basis de image 'python:3.6-alpine'
 - Installeer de 'Flask' Python module
 - Zorg ervoor dat poort 8080 van de container bereikbaar wordt gemaakt
