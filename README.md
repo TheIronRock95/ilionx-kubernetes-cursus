@@ -7,4 +7,4 @@ Maak een Dockerfile die de volgende image creert:
 - Configureer als werklocatie '/opt'
 - Specificeer als container executable: 'python app.py'
 
-Geef deze container de naam 'ilionx-webapp-example
+Geef deze container de naam 'ilionx-webapp-example'
