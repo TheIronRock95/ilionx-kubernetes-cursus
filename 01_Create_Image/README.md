@@ -1,4 +1,4 @@
-# ilionx-webapp-example
+# ilionx-webapp
 
 1. Maak een Dockerfile in deze map die de volgende image maakt:
 - Gebruik als basis de image 'python:3.6-alpine'
