@@ -1,6 +1,6 @@
 # ilionx-webapp-example
 
-Maak een Dockerfile in deze map die de volgende image maakt:
+1. Maak een Dockerfile in deze map die de volgende image maakt:
 - Gebruik als basis de image 'python:3.6-alpine'
 - Installeer de 'Flask' Python module
 - Plaats de data uit de map 'application' op de /app locatie in de container
@@ -8,4 +8,8 @@ Maak een Dockerfile in deze map die de volgende image maakt:
 - Configureer als werklocatie '/app'
 - Specificeer als container executable: 'python main.py'
 
-Geef deze container de naam 'ilionx-webapp-example'
+2. Bouw deze container en geef hem de naam 'ilionx-webapp'
+
+3. Maak een container in Docker die gebruik maakt van deze image en de webpagina bereikbaar maakt op poort 80
+
+4. Test de webpagina op http://localhost/
